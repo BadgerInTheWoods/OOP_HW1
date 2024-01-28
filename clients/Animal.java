@@ -75,15 +75,15 @@ public class Animal {
 
     //----------------------------------------------------------------
     public void ToGo() {
-        System.out.println("Животное идет...");
+        System.out.println(nickName + " идет...");
     }
 
     public void swim(){
-        System.out.println("Животное Плывет...");
+        System.out.println(nickName + " Плывет...");
     }
 
     public void Fly(){
-        System.out.println("Животное Летит...");
+        System.out.println(nickName + " Летит...");
     }
     //----------------------------------------------------------------
     @Override
