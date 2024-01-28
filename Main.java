@@ -59,6 +59,8 @@ public class Main {
         Som.ToGo();
         Som.Fly();
 
+        catty.Fly();
+
         System.out.println(Som.toString());
         
         //----------------------------------------------------------------
